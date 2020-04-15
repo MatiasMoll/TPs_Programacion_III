@@ -1,9 +1,9 @@
 <?php
 
 include_once 'Api.php';
+require_once './Interfaces/IMostrarDetalle.php';
 
-
-class Pais extends Api {
+class Pais extends Api implements IMostrarDetalle{
 
     public $nombre;
     public $poblacion;

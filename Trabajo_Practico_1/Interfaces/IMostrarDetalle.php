@@ -1,6 +1,6 @@
 <?php
 
 interface IMostrarDetalle{
-    
-    function MostrarDetalle();
+
+    public function MostrarDetalle();
 }

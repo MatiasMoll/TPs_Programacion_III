@@ -1,10 +1,12 @@
 <?php
 
-include_once './Clases/Pais.php';
-include_once './Clases/SubRegiones.php';
 
-$miPais = new Pais('Argentina');
-echo $miPais->MostrarDetalle();
+include_once './Clases/Buscador.php';
 
-$miContinente = new SubRegiones("Americas");
-echo $miContinente->MostrarDetalle();
+$buscador = new Buscador();
+$hablaEspañola = $buscador->BuscarPorIdioma('ES');
+$pais = $buscador->BuscarPorNombre('Argentina');
+$paisPorCapital = $buscador->BuscarPorCapital('Caracas');
+$region = $buscador->BuscarPorRegion('Americas');
+
+echo $region;

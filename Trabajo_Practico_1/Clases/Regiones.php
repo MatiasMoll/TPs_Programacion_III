@@ -3,7 +3,7 @@
 include_once 'Api.php';
 require_once './Interfaces/IMostrarDetalle.php';
 
-class SubRegiones extends Api implements IMostrarDetalle{
+class Regiones extends Api implements IMostrarDetalle{
 
     public $nombre;
     public $lstPaises;
