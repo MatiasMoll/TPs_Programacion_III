@@ -1,0 +1,12 @@
+{
+    "name": "bangho/trabajo_practico_1",
+    "authors": [
+        {
+            "name": "MatiasMoll",
+            "email": "moll.matias.a@gmail.com"
+        }
+    ],
+    "require": {
+        "namnv609/php-rest-countries": "^1.0"
+    }
+}
