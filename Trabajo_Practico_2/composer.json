@@ -1,0 +1,12 @@
+{
+    "name": "bangho/trabajo_practico_2",
+    "authors": [
+        {
+            "name": "MatiasMoll",
+            "email": "moll.matias.a@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    }
+}
